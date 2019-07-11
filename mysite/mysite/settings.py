@@ -31,8 +31,7 @@ ALLOWED_HOSTS = []
 # https://docs.djangoproject.com/en/2.1/ref/settings/#std:setting-INSTALLED_APPS
 INSTALLED_APPS = [
     'app',
-    'test',
-    'Animal',
+    'animal',
     # Add your apps here to enable them
     'django.contrib.admin',
     'django.contrib.auth',
@@ -81,15 +80,15 @@ DATABASES = {
         'default': {
             
             },
-        'users': {
-            'NAME': 'user_data',
+        'animals': {
+            'NAME': 'animal_data',
             'ENGINE': 'django.db.backends.mysql',
             'HOST': 'localhost',
             'USER': 'root',
             'PASSWORD': 'Pontiki6!!'
         },
-        'customers': {
-            'NAME': 'customer_data',
+        'persons': {
+            'NAME': 'person_data',
             'ENGINE': 'django.db.backends.mysql',
             'HOST': 'localhost',
             'USER': 'root',

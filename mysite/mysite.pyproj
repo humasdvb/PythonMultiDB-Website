@@ -31,23 +31,16 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Animal\admin.py" />
-    <Compile Include="Animal\apps.py" />
-    <Compile Include="Animal\migrations\__init__.py" />
-    <Compile Include="Animal\models.py" />
-    <Compile Include="Animal\tests.py" />
-    <Compile Include="Animal\views.py" />
-    <Compile Include="Animal\__init__.py" />
+    <Compile Include="animal\admin.py" />
+    <Compile Include="animal\apps.py" />
+    <Compile Include="animal\migrations\__init__.py" />
+    <Compile Include="animal\models.py" />
+    <Compile Include="animal\tests.py" />
+    <Compile Include="animal\views.py" />
+    <Compile Include="animal\__init__.py" />
     <Compile Include="app\forms.py" />
     <Compile Include="app\models.py" />
     <Compile Include="app\tests.py" />
-    <Compile Include="app\test\admin.py" />
-    <Compile Include="app\test\apps.py" />
-    <Compile Include="app\test\migrations\__init__.py" />
-    <Compile Include="app\test\models.py" />
-    <Compile Include="app\test\tests.py" />
-    <Compile Include="app\test\views.py" />
-    <Compile Include="app\test\__init__.py" />
     <Compile Include="app\views.py" />
     <Compile Include="app\__init__.py" />
     <Compile Include="app\migrations\__init__.py" />
@@ -61,10 +54,10 @@
     <Compile Include="mysite\wsgi.py" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Animal\" />
-    <Folder Include="Animal\migrations\" />
-    <Folder Include="Animal\templates\" />
-    <Folder Include="Animal\templates\Animal\" />
+    <Folder Include="animal\" />
+    <Folder Include="animal\migrations\" />
+    <Folder Include="animal\templates\" />
+    <Folder Include="animal\templates\animal\" />
     <Folder Include="app\" />
     <Folder Include="app\migrations\" />
     <Folder Include="app\static\" />
@@ -74,17 +67,11 @@
     <Folder Include="app\static\app\scripts\" />
     <Folder Include="app\templates\" />
     <Folder Include="app\templates\app\" />
-    <Folder Include="app\test\" />
-    <Folder Include="app\test\migrations\" />
-    <Folder Include="app\test\templates\" />
-    <Folder Include="app\test\templates\test\" />
     <Folder Include="mysite\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Animal\templates\Animal\index.html" />
-    <Content Include="app\test\templates\test\index.html" />
+    <Content Include="animal\templates\animal\index.html" />
     <Content Include="requirements.txt" />
-    <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />
     <Content Include="app\static\app\content\bootstrap.min.css" />
     <Content Include="app\static\app\content\site.css" />
